@@ -1,4 +1,3 @@
-import './App.css';
 import {FabricJSCanvas, useFabricJSEditor} from "fabricjs-react";
 
 const App = () => {
