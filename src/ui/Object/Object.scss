@@ -1,0 +1,15 @@
+@import "../../assets/styles/colors";
+
+.object {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 9px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+
+  & img {
+    height: 46px;
+  }
+}

@@ -1,0 +1,14 @@
+.object {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 9px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+.object img {
+  height: 46px;
+}
+
+/*# sourceMappingURL=Object.css.map */

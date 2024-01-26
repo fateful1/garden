@@ -1,0 +1,119 @@
+@import '../../assets/styles/colors';
+
+.header {
+    position: relative;
+    z-index: 10000;
+
+    &__first {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px;
+        font-weight: 600;
+        font-size: 20px;
+        background: $blue;
+        color: $white;
+
+        & > div {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        & span {
+            font-size: 16px;
+        }
+    }
+
+    &__second {
+        padding: 0 40px;
+        height: 60px;
+        background: $dark-grey;
+        display: flex;
+
+        &-menu {
+            height: 100%;
+            position: relative;
+            //width: 92px;
+            display: flex;
+            align-items: center;
+
+            & .button {
+                display: flex;
+                padding: 18px 20px;
+                background: $white;
+                height: 60px;
+                margin-right: 60px;
+                align-items: center;
+                justify-content: center;
+                gap: 6px;
+                cursor: pointer;
+
+                & img {
+                    height: 5px;
+                }
+            }
+
+            & > div {
+                display: none;
+                flex-direction: column;
+                width: 204px;
+                border-radius: 8px;
+                box-shadow: 0 0 7.8px 0 rgba(0, 0, 0, 0.25);
+                padding: 8px 16px;
+                position: absolute;
+                top: 64px;
+                cursor: pointer;
+
+                &.active {
+                    display: flex;
+                    background: $white;
+                }
+
+                & span {
+                    //width: 202px;
+                    height: 30px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    display: flex;
+                    align-items: center;
+
+                    &.divider {
+                        height: 1px;
+                        background: $dark-grey;
+                    }
+                }
+            }
+        }
+
+        & .undo-redo {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        & .buttons {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        & .close {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            color: $white;
+            font-size: 16px;
+            font-weight: 400;
+            cursor: pointer;
+
+            & img {
+                height: 17px;
+            }
+        }
+    }
+}
+

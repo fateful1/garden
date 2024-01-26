@@ -1,0 +1,10 @@
+.objects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.objects .object:not(:last-of-type) {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+/*# sourceMappingURL=Objects.css.map */

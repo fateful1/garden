@@ -1,0 +1,16 @@
+@import "../../assets/styles/colors";
+
+.leftPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 18px 7px;
+  box-shadow: 0 0 7.8px 0 rgba(0, 0, 0, 0.25);
+  width: fit-content;
+  position: absolute;
+  top: 215px;
+  left: 40px;
+  border-radius: 8px;
+  z-index: 1000;
+  background: $white;
+}

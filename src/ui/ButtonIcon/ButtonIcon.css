@@ -1,0 +1,15 @@
+.buttonIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #2A293D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buttonIcon img {
+  height: 19px;
+}
+
+/*# sourceMappingURL=ButtonIcon.css.map */

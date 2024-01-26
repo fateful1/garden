@@ -1,0 +1,101 @@
+.header {
+  position: relative;
+  z-index: 10000;
+}
+.header__first {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  font-weight: 600;
+  font-size: 20px;
+  background: #2A293D;
+  color: #FFFFFF;
+}
+.header__first > div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header__first span {
+  font-size: 16px;
+}
+.header__second {
+  padding: 0 40px;
+  height: 60px;
+  background: #6F6E7D;
+  display: flex;
+}
+.header__second-menu {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.header__second-menu .button {
+  display: flex;
+  padding: 18px 20px;
+  background: #FFFFFF;
+  height: 60px;
+  margin-right: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.header__second-menu .button img {
+  height: 5px;
+}
+.header__second-menu > div {
+  display: none;
+  flex-direction: column;
+  width: 204px;
+  border-radius: 8px;
+  box-shadow: 0 0 7.8px 0 rgba(0, 0, 0, 0.25);
+  padding: 8px 16px;
+  position: absolute;
+  top: 64px;
+  cursor: pointer;
+}
+.header__second-menu > div.active {
+  display: flex;
+  background: #FFFFFF;
+}
+.header__second-menu > div span {
+  height: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.header__second-menu > div span.divider {
+  height: 1px;
+  background: #6F6E7D;
+}
+.header__second .undo-redo {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.header__second .buttons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header__second .close {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.header__second .close img {
+  height: 17px;
+}
+
+/*# sourceMappingURL=Header.css.map */

@@ -1,1 +1,76 @@
 @import './colors';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.modal {
+  &__h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: $white;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 51px;
+
+    & span:first-of-type img {
+      filter: grayscale(1) invert(1);
+    }
+
+    & span {
+      width: 236px;
+      height: 167px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      align-items: center;
+      justify-content: center;
+      background: $white;
+      border-radius: 16px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    & img {
+      height: 17px;
+    }
+  }
+}
+
+.ReactModal__Content {
+  background: #333333 !important;
+  border-radius: 16px !important;
+  padding: 45px 57px 65px !important;
+}
+
+.ReactModal__Overlay {
+  background: rgba(0, 0, 0, 0.40) !important;
+  z-index: 10000;
+}
+
+.construction > div > .canvas-container > .canvas-container {
+  //left: -300px;
+  //top: -300px;
+}
+
+.construction > div > .canvas-container > .upper-canvas {
+  touch-action: auto !important;
+  user-select: all !important;
+  width: 0 !important;
+  height: 0 !important;
+  display: none !important;
+  top: -9999px !important;
+  left: -9999px !important;
+  position: relative !important;
+}
